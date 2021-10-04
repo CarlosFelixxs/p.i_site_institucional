@@ -7,13 +7,12 @@
 .heather{
     height: 100px;
     background-color: black;
-    border: aqua 2px solid;
+    border: rgb(43, 121, 238) 2px solid;
 }
 .container{
  width: 80%;
  height: 100%;
  margin: auto;
- background-color: black;
 }
 
 .heather .container{
@@ -29,7 +28,7 @@
     justify-content: space-between;
 }
 .heather h1{
-    color: aquamarine;
+    color: rgb(43, 121, 238);
 }
 .naviBar li{
     font-weight: lighter;
@@ -41,4 +40,105 @@
 }
 .naviBar .ativa{
     font-weight: bolder;
+}
+.banner{
+    height: 500px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190903/pngtree-blue-and-green-smoke-on-dark-background-image_310554.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    margin-right: 100px;
+    width: 10%;
+    color: white;
+    font-size: 30px;    
+}
+.message span{
+    font-weight: bolder;
+}
+.proposito{
+    height: 450px;
+    background-color: #E5E5E5;
+}
+.proposito .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proposito .container h2{
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    color:#d40140;
+}
+.proposito .container .mvv div img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.proposito .container .mvv{
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+}
+.proposito .container .mvv div{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.proposito .container .mvv div h3{
+    color: #d40140;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+.footer{
+    background-color: rgb(43, 121, 238);
+    height: 150px;
+}
+.footer p{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.banner .form_login{
+    background-color: white;
+    height:350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .form_login h2{
+    color: #d40140;
+}
+.banner .form_login div{
+    display: flex;
+    flex-direction: column;
+}
+.banner .form_login div span{
+    color: #d40140;
+}
+.banner .form_login div input{
+    border: 2px solid #d40140;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner .form_login button{
+    background-color:#d40140;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
